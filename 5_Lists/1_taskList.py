@@ -17,5 +17,9 @@ tasks = ['Open VS Code', 'Create a file', 'Write the code', 'Execute the code']
 
 x = 1
 for task in tasks:
+    # print(task)
     print(str(x) + '. ' + task)
     x += 1
+
+
+task.index()
