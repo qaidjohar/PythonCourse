@@ -1,5 +1,5 @@
-# def double(num):
-#     return num*2
+def double(num):
+    return num*2
 
 double2 = lambda num: num*2
 
@@ -12,7 +12,7 @@ double2 = lambda num: num*2
 # print(double2(4))
 
 s = lambda strng: strng.upper()
-# print(s('hello world'))
+print(s('hello world'))
 # print(s.__name__)
 
 toFar = lambda celsius: (celsius*9/5)+32
