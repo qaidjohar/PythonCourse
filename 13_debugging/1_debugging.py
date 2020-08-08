@@ -1,4 +1,4 @@
-# FIRST EXAMPLE:
+# # FIRST EXAMPLE:
 # import pdb
 # first = "First"
 # second = "Second"
@@ -7,6 +7,13 @@
 # third = "Third"
 # result += third
 # print(result)
+
+# Be careful with variable names!
+def add_numbers(a, b, c, d):
+    import pdb; pdb.set_trace() 
+
+    return a + b + c + d
+add_numbers(1,2,3,4)
 
 
 
@@ -25,12 +32,3 @@
 # n (next line)
 # p (print)
 # c (continue - finishes debugging)
-
-
-
-# Be careful with variable names!
-# def add_numbers(a, b, c, d):
-#     import pdb; pdb.set_trace() 
-
-#     return a + b + c + d
-# add_numbers(1,2,3,4)
