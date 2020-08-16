@@ -29,11 +29,11 @@ def div(num1, num2):
     return num1 / num2
 
 
-def math(num1, num2, fn=add):
+def math(num1, num2, fn):
     return fn(num1, num2)
 
 
-print(math(200, 20))
+print(math(200, 20), add)
 print(math(200, 20, sub))
 print(math(200, 20, mul))
 print(math(200, 20, div))
